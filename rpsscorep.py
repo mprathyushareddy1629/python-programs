@@ -1,10 +1,14 @@
 import random
 l=["r","p","s"]
+d={"r":"rock","p":"paper","s":"scissors"}
+for x in d:
+	print(x,d[x])
 us=0
 cs=0
 
 #take input from the user
 u=input("enter the choice,enter q to quit")
+print("user chooses",u)
 
 #input from the computer
 c=random.choice(l)
