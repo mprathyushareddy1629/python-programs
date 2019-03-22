@@ -6,11 +6,11 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 
 s.starttls() 
  
-s.login("sender_email_id", "sender_email_id_password") 
+s.login("sender email id", "sender password") 
 
-message = "Message_you_need_to_send"
+message = "Message"
 
  
-s.sendmail("sender_email_id", "receiver_email_id", message) 
+s.sendmail("sender email id", "receiver email id", message) 
  
 s.quit() 
